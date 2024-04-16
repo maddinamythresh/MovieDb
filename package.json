@@ -6,9 +6,16 @@
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "fs": "^0.0.1-security",
+    "image-resize": "^1.3.2",
+    "mongoose": "^8.3.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-image-file-resizer": "^0.4.8",
+    "react-router-dom": "^6.22.3",
     "react-scripts": "5.0.1",
+    "resize-image": "^0.1.0",
+    "sharp": "^0.33.3",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
