@@ -26,7 +26,7 @@ export default function Header() {
       <div className="center-header">
         <input placeholder="Search" onChange={(event)=>handleEvent(event.target.value)}/>
         <button >
-          <img src={search} />
+          <img src={search} onCha />
         </button>
       </div>
 

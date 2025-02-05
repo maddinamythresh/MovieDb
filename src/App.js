@@ -10,11 +10,12 @@ function App() {
   
 
   return (
-    <>
+    <div className="body">
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<>
             <Header />
+            <Popular/>
             <Trending/>
           </>} >
           </Route>
@@ -46,7 +47,7 @@ function App() {
           
         </Routes>
       </BrowserRouter>
-    </>
+    </div >
     
   );
 }

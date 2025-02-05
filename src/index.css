@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
@@ -17,7 +18,8 @@ code {
   align-items: center;
 }
 nav {
-  background-color: aqua;
+  background: linear-gradient(135deg, #00bcd4, #ff9800);
+  
 }
 .left-header {
   flex-grow: 1;
@@ -60,11 +62,13 @@ nav {
   display: flex;
   width: 15rem;
   height: 15rem;
+  border-radius: 10rem;
 }
 .card > img {
   width: 10rem;
   height: 15rem;
   flex: 1;
+  border-radius-top:0.5rem;
 }
 .car {
   width: 15rem;
@@ -74,7 +78,9 @@ nav {
   border: solid 2px black;
   display: flex;
   flex-wrap: wrap;
-  margin-left: 2rem;
+  border-radius: 0.5rem;
+  
+  
   flex-direction: column;
   align-items: flex-start;
 }
@@ -89,9 +95,10 @@ nav {
 }
 .high {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-direction: row;
   flex-wrap: wrap;
+
 }
 .details {
   display: flex;
@@ -122,6 +129,7 @@ nav {
   display:flex;
   flex-direction: row;
   align-items: center;
+  gap:10px;
 
 }
 a{
@@ -130,6 +138,7 @@ a{
 
 .rating>img{
   height: 10rem;
+  padding-bottom: 3px;
 }
 .titles{
   height: 21.33px;
